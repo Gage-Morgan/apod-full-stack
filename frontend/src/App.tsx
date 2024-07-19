@@ -1,9 +1,14 @@
+import ApodForm from "./components/ApodForm";
 
-
-function App() {
+const App: React.FC = () => {
   return (
-    <div>App</div>
+    <>
+      <main className="main-container">
+        <h1>NASA APOD API</h1>
+        <ApodForm></ApodForm>
+      </main>
+    </>
   );
-}
+};
 
 export default App;
